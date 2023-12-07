@@ -1,0 +1,22 @@
+.container {
+    border: 2px solid blueviolet;
+    height: 400px;
+
+}
+
+.container h2{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.container ul{
+    justify-content: center;
+    display: flex;
+}
+.container li{
+    margin: 30px;
+    list-style: none;
+}
