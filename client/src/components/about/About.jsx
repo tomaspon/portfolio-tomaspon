@@ -4,7 +4,11 @@ import style from "./About.module.css"
 const About = () => {
   return (
     <div className={style.container}>
-        <h2>About me</h2>
+      <div className={style.presentContainer}>
+        <h2>Hi there!</h2>
+        <h3>I'am Tomas Pon.</h3>
+        <p>FULL STACK DEVELOPER</p>
+      </div>
     </div>
 
 )}
