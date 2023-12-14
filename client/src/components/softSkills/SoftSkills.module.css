@@ -1,23 +1,22 @@
-.container{
-    height: 580px;
-    border: 1px solid black;
+.container {
+  height: 580px;
+  border: 1px solid black;
 }
 
-.container h2{
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+.container h2 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #264794;
 }
 
-
-.skillsList{
-    position: relative;
-    bottom: 24px;
-    font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 auto;
-
+.skillsList {
+  position: relative;
+  bottom: 24px;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
 }

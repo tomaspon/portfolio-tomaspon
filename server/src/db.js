@@ -35,6 +35,6 @@ let capsEntries = entries.map((entry) => [
 sequelize.models = Object.fromEntries(capsEntries);
 
 module.exports = {
-  ...sequelize.models, 
-  conn: sequelize, 
+  ...sequelize.models,
+  conn: sequelize,
 };
