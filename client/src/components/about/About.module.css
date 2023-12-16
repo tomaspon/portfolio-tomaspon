@@ -1,35 +1,49 @@
 .container {
-  height: 580px;
+  height: 720px;
   margin: 0 auto;
   background-color: #080d16;
 }
 
 .presentContainer {
   text-align: start;
-  position: relative;
-  top: 90px;
-  left: 140px;
+  position: absolute;
+  top: 234px;
+  left: 280px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .presentContainer h2 {
+  font-size: 48px;
+  margin: 0 auto;
   position: relative;
-  font-weight: 300;
-  top: 18px;
-  font-size: 32px;
-  margin: 0px 0px 0px 20px;
+  left: 1.5px;
+  font-weight: 100;
+  color: rgb(231, 231, 231);
 }
 
 .presentContainer h3 {
-  font-weight: 600;
-  font-size: 56px;
-  margin: 0px 20px 0px 20px;
+  font-weight: 300;
+  font-size: 74px;
+  margin: 0 auto;
+}
+
+.presentContainer h4 {
+  font-weight: 300;
+  display: flex;
+  margin: 0 auto;
+  color: rgb(231, 231, 231);
+  justify-content: start;
+  font-size: 72px;
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: -40px;
 }
 
 .presentContainer img {
   position: absolute;
-  width: 576px;
-  top: -86px;
-  left: 640px;
+  width: 680px;
+  top: -130px;
+  left: 400px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -37,8 +51,10 @@
 }
 
 .bolds {
-  color: #264794;
-  font-size: 60px;
+  color: #1c45a4;
+  font-size: 74px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }
 
 .backgroundBar {
@@ -49,10 +65,21 @@
   margin: 0 auto;
 }
 
-.fullStackTitle {
+.contactContent ul {
   display: flex;
-  width: 1721px;
-  margin: 0 auto;
-  padding: 6px 6px 6px 16px;
-  border-radius: 4px;
+  list-style: none;
+  background-color: #1c45a419;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.contactContent li {
+  text-align: start;
+  margin: 20px;
+}
+
+.imgBanner {
+  position: relative;
+  left: 400px;
 }

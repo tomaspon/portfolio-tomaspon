@@ -1,7 +1,17 @@
 .container {
   border: 1px solid black;
   background-color: #080d16;
-  height: 580px;
+  height: 720px;
+}
+
+.container section {
+  top: 40px;
+  position: relative;
+}
+
+.sectionContent {
+  top: 60px;
+  position: relative;
 }
 
 .container h2 {
