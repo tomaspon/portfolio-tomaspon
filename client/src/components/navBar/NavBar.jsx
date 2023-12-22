@@ -7,27 +7,27 @@ const NavBar = () => {
     <div className={style.container}>
         <ul>
             <li>
-                <Link>
+                <Link to="/home">
                 Home
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/about">
                 About
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/services">
                 Services
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/works">
                 Works
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/contact">
                 Contact
                 </Link>
             </li>

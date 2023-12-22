@@ -1,8 +1,11 @@
 import React from "react";
 import style from "./Works.module.css";
+import NavBar from "../navBar/NavBar";
 
 const Works = () => {
   return (
+      <div>
+        <NavBar/>
     <div className={style.container}>
       <section id="Works">
         <h2>WORKS</h2>
@@ -23,6 +26,7 @@ const Works = () => {
         </div>
       </section>
     </div>
+      </div>
   );
 };
 

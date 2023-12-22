@@ -1,10 +1,13 @@
 import React from "react";
-import style from "./SoftSkills.module.css";
+import style from "./Services.module.css";
+import NavBar from "../navBar/NavBar";
 
-const SoftSkills = () => {
+const Services = () => {
   return (
+    <div>
+      <NavBar/>
     <div className={style.container}>
-      <section id="softSkills">
+      <section id="services">
         <div className={style.skillTitles}>
           <h2>Services</h2>
           <h3>Skill-Set</h3>
@@ -24,7 +27,8 @@ const SoftSkills = () => {
         </div>
       </section>
     </div>
+    </div>
   );
 };
 
-export default SoftSkills;
+export default Services;
