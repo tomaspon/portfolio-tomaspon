@@ -1,17 +1,19 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.container {
+  height: 736px;
+  border-bottom: solid 30px black;
 }
 
-.container {
+.navBarContainer{
+  position: absolute;
+  width: 100%;
   margin: 0 auto;
-  background-color: #080d16;
 }
 
 .presentContainer {
   text-align: start;
-    position: absolute;
-    top: 234px;
-    left: 220px;
+  position: absolute;
+  top: 224px;
+  left: 220px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -61,6 +63,7 @@ body {
   position: relative;
   left: 395px;
   margin: 0 auto;
+  top: 16px;
 }
 
 .contactContent{
@@ -97,4 +100,20 @@ body {
 
 .icon img {
   width: 38px;
+}
+
+hr{
+  width: 12px;
+  margin: 20px;
+}
+
+.hrs{
+  margin: -12px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.aboutContainer{
+  position: relative;
 }

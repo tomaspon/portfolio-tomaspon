@@ -5,7 +5,6 @@ import NavBar from "../navBar/NavBar";
 const Services = () => {
   return (
     <div>
-      <NavBar/>
     <div className={style.container}>
       <section id="services">
         <div className={style.skillTitles}>

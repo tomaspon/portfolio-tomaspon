@@ -5,7 +5,6 @@ import NavBar from "../navBar/NavBar";
 const Works = () => {
   return (
       <div>
-        <NavBar/>
     <div className={style.container}>
       <section id="Works">
         <h2>WORKS</h2>

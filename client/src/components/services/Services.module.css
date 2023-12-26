@@ -1,12 +1,10 @@
 .container {
-  height: 720px;
-  border: 1px solid black;
+  height: 736px;
 }
 
 .skillTitles {
   position: relative;
   top: 60px;
-  left: 284px;
   text-align: start;
 }
 
