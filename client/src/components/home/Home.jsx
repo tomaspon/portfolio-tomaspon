@@ -25,7 +25,7 @@ const Home = () => {
             <b className={style.bolds}>Tomas Pon</b>
             <b
               style={{
-                fontSize: "38px",
+                fontSize: "40px",
                 fontFamily: "serif",
                 fontWeight: "600",
               }}
@@ -39,20 +39,24 @@ const Home = () => {
       <div className={style.imgBanner}>
         <img src="src\assets\bannerme.png" alt="" />
       </div>
-    <div className={style.contactContainer}>
         <div className={style.contactContent}>
           <ul>
             <li className={style.icon}>
-                <a href="https://www.linkedin.com/in/tomaspon/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/tomaspon/">
+                  <img src="src\assets\linkedin.png" alt="LinkedIn" />
+                </a>
             </li>
             <li className={style.icon}>
-                <a href="https://github.com/tomaspon">GitHub</a>
+                <a href="https://github.com/tomaspon">
+                  <img src="src\assets\github.png" alt="GitHub" />
+                </a>
             </li>
-            <li className={style.icon}>
-              <a href="https://www.youtube.com/channel/UCR3PTsSDPNktqJg2KxyUfeA">Youtube</a>
+            <li className={style.iconyt}>
+              <a href="https://www.youtube.com/channel/UCR3PTsSDPNktqJg2KxyUfeA">
+              <img src="src\assets\youtube.png" alt="Youtube" width="38px"/>
+              </a>
             </li>
           </ul>
-        </div>
       </div>
     </div>
     </div>

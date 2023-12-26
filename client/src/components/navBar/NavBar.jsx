@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className={style.container}>
         <ul>
             <li>
-                <Link to="/home">
+                <Link to="/">
                 Home
                 </Link>
             </li>
