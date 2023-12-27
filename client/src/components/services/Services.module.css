@@ -9,11 +9,13 @@
 }
 
 .container h2 {
-  font-size: 34px;
-  margin: 0 auto;
   top: 10px;
+  font-size: 40px;
   position: relative;
   font-weight: 300;
+  margin: 40px;
+  margin-left: 179px;
+  
 }
 
 .container h3 {

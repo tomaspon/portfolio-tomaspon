@@ -8,20 +8,19 @@ const Services = () => {
     <div className={style.container}>
       <section id="services">
         <div className={style.skillTitles}>
-          <h2>Services</h2>
-          <h3>Skill-Set</h3>
+          <h2>SERVICES</h2>
         </div>
-        <div className={style.skillsList}>
+        <div className={style.skillsContainer}>
           <div className={style.skill}>
-            <p>JavaScript</p>
+            <img src="" alt="" />
           </div>
 
           <div className={style.skill}>
-            <p>React</p>
+            <img src="" alt="" />
           </div>
 
           <div className={style.skill}>
-            <p>Node.js</p>
+            <img src="" alt="" />
           </div>
         </div>
       </section>

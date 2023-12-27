@@ -23,7 +23,7 @@
   position: relative;
   left: 1.5px;
   font-weight: 100;
-  color: rgb(231, 231, 231);
+  color:rgb(233, 233, 233);
 }
 
 .presentContainer h3 {
@@ -36,7 +36,7 @@
   font-weight: 300;
   display: flex;
   margin: 0 auto;
-  color: rgb(231, 231, 231);
+  color: rgb(233, 233, 233);
   justify-content: start;
   font-size: 68px;
   position: relative;
@@ -112,6 +112,7 @@ hr{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  
 }
 
 .aboutContainer{

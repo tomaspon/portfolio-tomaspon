@@ -14,23 +14,46 @@
 .aboutContent h2{
   margin: 40px;
   font-size: 38px;
-  margin-left: 220px;
+  margin-left: 180px;
   margin-bottom: 10px;
-  top: 10px;
+  top: 20px;
   position: relative;
-  font-weight: 300;
+  font-weight: 100;
+  color:rgb(233, 233, 233);
 }
 
 .aboutContent p{
-  font-size: 22px;
-  margin-left: 220px;
-  width: 500px;
-  height: 340px;
-  background-color: #090e1a;
-  padding: 16px;
-  border-radius:6px;
+  font-size: 24px;
+  position: relative;
+  top: -29px;
+  left: 2px;
+  color: rgb(233, 233, 233);
 }
 
 .aboutContent b{
   color: #183577;
+}
+
+.text{
+  outline: solid 1px #183577;
+  top: 30px;
+  margin: 0 auto;
+  margin-left: 206px;
+  position: relative;
+  background-color: #090e1afa;
+  padding: 16px;
+  border-radius:4px;
+  width: 514px;
+  height: 350px;
+  box-shadow: 4px 4px 6px black;
+  z-index: 998;
+}
+
+.monigotes img{
+  filter: blur(1px);
+  width: 540px;
+  height: 410px;
+  position: relative;
+  top: -350px;
+  left: 750px;
 }

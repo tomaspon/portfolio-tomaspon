@@ -1,6 +1,6 @@
 .container {
-  background-color: rgba(0, 0, 0, 0.646);
-}
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0),rgba(0, 0, 0, 0.892), rgba(0, 0, 0, 0.799),rgba(0, 0, 0, 0.052));
+  transition: background 0.8s ease;}
 
 .container ul {
   display: flex;
@@ -19,7 +19,15 @@
 }
 
 .container a {
-  color: white;
+  color: rgb(233, 233, 233);
   font-weight: 500;
   text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0),rgba(0, 0, 0, 0.892), rgba(0, 0, 0, 0.799),rgba(0, 0, 0, 0.052));
+  z-index: 1000;
 }

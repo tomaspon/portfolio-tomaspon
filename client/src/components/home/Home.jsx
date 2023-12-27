@@ -24,7 +24,7 @@ const Home = () => {
               </b>
             </h2>
             <h3>
-              <b style={{ fontWeight: "200", color: "  rgb(220, 220, 220)" }}>
+              <b style={{ fontWeight: "200", color: " rgb(233, 233, 233)" }}>
                 I'm
               </b>{" "}
               <b className={style.bolds}>Tomas Pon</b>
@@ -33,6 +33,7 @@ const Home = () => {
                   fontSize: "40px",
                   fontFamily: "serif",
                   fontWeight: "600",
+                  color:'rgb(233, 233, 233)'
                 }}
               >
                 ,
