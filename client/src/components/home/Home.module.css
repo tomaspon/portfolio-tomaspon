@@ -96,18 +96,34 @@
 
 .icon {
   cursor: pointer;
+  z-index: 10;
 }
 
 .icon img {
   width: 38px;
+  cursor: pointer;
+}
+
+.icon img:hover{
+  width: 40.4px;
+  position: absolute;
+  transition: 0.2s;
+}
+
+.iconyt img:hover{
+  width: 40.4px;
+  position: absolute;
+  transition: 0.2s;
 }
 
 hr{
   width: 12px;
+  position: relative;
   margin: 20px;
 }
 
 .hrs{
+  position: relative;
   margin: -12px 0 0 0;
   display: flex;
   flex-wrap: wrap;
