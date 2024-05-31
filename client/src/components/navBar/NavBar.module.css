@@ -1,19 +1,19 @@
 .container {
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0),rgba(0, 0, 0, 0.892), rgba(0, 0, 0, 0.799),rgba(0, 0, 0, 0.052));
-  transition: background 0.8s ease;}
+  background-color: rgba(0, 0, 0, 0.822);
+}
 
 .container ul {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  justify-content: start;
-  margin-left: 100px;
-  flex-wrap: wrap;
+  justify-content: end;
+  position: relative;
+  right: 80px;
 }
 
 .container li {
   display: flex;
-  margin: 20px 40px 20px 40px;
+  margin: 20px 40px;
   cursor: pointer;
   list-style: none;
 }
@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 
-.container a:hover{
+.container a:hover {
   color: #163c94;
   transition: 0.2s;
 }
@@ -33,6 +33,27 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0),rgba(0, 0, 0, 0.892), rgba(0, 0, 0, 0.799),rgba(0, 0, 0, 0.052));
   z-index: 1000;
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #163c94a6;
+  font-size: 34px;
+  font-weight: 800;
+  z-index: 9999; /* Ajuste del z-index */
+}
+
+.scrollToTop:hover {
+  background-color: #1a58b2;
+  cursor: pointer;
 }

@@ -1,35 +1,33 @@
-.container{
-  border-bottom: solid 30px black;
-
-}
-
-.containerContent {
-  height: 756px;
-  display: inline-block;
-  width: 400px;
-  position: relative;
+.container {
+  border-bottom: solid 4px black;
+  height: 90vh;
+  margin: 0 auto;
   display: flex;
-  margin-top: 80px;
-  margin-left: 224px;
+  flex-direction: column;
 }
 
+.devContainer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
 
 .skillsTitle h2 {
   text-align: start;
-  font-weight:100;
+  font-weight: 100;
   font-size: 36px;
-  top: -92px;
   left: -2px;
-  position: absolute;
+  text-align: center;
 }
 
-.containerTitle h2{
-  top: -40px;
-  display: flex;
-  margin-left: -45px;
+.containerTitle h2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
   font-size: 40px;
-  position: absolute;
-  font-weight: 300;  
+  margin: 0 auto;
+  position: relative;
+  font-weight: 400;
 }
 
 .container h3 {
@@ -50,22 +48,16 @@
   margin: 0 auto;
 }
 
-.container p{
-  display: flex;
-}
-
-
-
 /* -------- SKILLS -------- */
 .skills {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color:black;
+  color: black;
   margin: 0 auto;
 }
 
-.containerService{
+.containerService {
   width: 350px;
   margin: 0 auto;
   height: 14px;
@@ -73,144 +65,29 @@
   border-radius: 4px;
 }
 
-.skillshtmlcss {
-  width: 90%;
-  height: 14px; 
-  border-radius: 4px;
-  background-color: #aa0404e5;
-  color:black;
-} 
-
-.skillsjs {
-  width: 85%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #EFD81D;
-  color:black;
-}
-
-.skillsreact {
-  width: 85%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #58aefa;
-  color:black;
-}
-
-.skillsnode {
-  width: 80%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #29c221;
-  color:black;
-}
-
-.skillsexpress {
-  width: 75%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #4627c3;
-  color:black;
-}
-
-.skillspostgre {
-  width: 65%;
-  height: 14px;
-  border-radius:4px;
-  background-color: #07e091;
-  color:black;
-}
-
-.skillsgithub {
-  width: 65%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #121212;
-  outline: solid 1px rgb(54, 54, 54);
-  color:gray;
-}
-
-/*--------- OTHER SKILLS --------- */
-.skillsPs {
-  width: 80%;
-  height: 14px;
-  border-radius: 4px;
-  color: black;  background-color: #121292; 
-}
-
-.skillsPremier {
-  width: 75%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #0ad6e1;
-  color: black;
-}
-.skillsAfterEff {
-  width: 55%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #9024c2; 
-  color: black;
-}
-
-.skillsLightroom {
-  width: 45%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #00ff88; 
-  color: black;
-}
-
-.skillsAcrobat {
-  width: 70%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #e71919; 
-  color: black;
-}
-
-.skillsAudition {
-  width: 50%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #11db44; 
-
-  color: black;
-}
-
-.skillsSpark {
-  width: 80%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #2196F3; 
-  color: black;
-}
-
-.sections{
-  display: flex;
-  position: absolute;
-  top:160px;
-  left: -40px;
-}
-
-.serviceSection{
-  border: solid 1px #264794;
-  padding: 12px;
-  width: 350px;
-  height: 500px;
-  border-radius: 4px;
-  background-color: #090e1afa;
-  box-shadow: 4px 4px 6px black;
-}
-
-.serviceSection h2{
-  width: 400px;
+.containerContent {
+  justify-content: center;
   margin: 0 auto;
-  display: flex;
+  flex-direction: column;
+  top: 100px;
   position: relative;
 }
 
-.serviceSection h5{
+.devSection {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.serviceSection {
+  height: 140px;
+  width: 1200px;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.serviceSection h5 {
   text-align: end;
   font-weight: 600;
   margin: 4px;
@@ -218,34 +95,26 @@
   top: -3px;
 }
 
-.containerService:hover{
+svg {
+  display: block;
+  margin: 4px;
+  flex-shrink: 0;
+  transition: all 0.3s ease-out; /* Añade la transición en el estado inicial */
+}
+
+svg:hover {
+  width: 138px;
+  height: 138px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.651));
+}
+
+.containerService:hover {
   box-shadow: 1px 2px 4px black;
   transition: 0.3s;
   color: black;
 }
 
-.otherSkills h2{
-  text-align: start;
-  width: 480px;
-  position: absolute;
-  top: -92px;
-  left: 714px;
-  font-weight:100;
-  font-size: 36px;
-}
-
-.otherServiceSection{
-  width: 450px;
-  height: 500px;
-  border: solid 1px #264794;
-  padding: 12px;
-  border-radius: 6px;
-  background-color: #090e1afa;
-  box-shadow: 4px 4px 6px black;
-  margin-left: 340px;
-}
-
-.otherServiceSection h5{
+.otherServiceSection h5 {
   text-align: end;
   font-weight: 600;
   margin: 4px;
@@ -253,125 +122,15 @@
   top: -3px;
 }
 
-.otherServiceSection p{
+.otherServiceSection p {
   position: relative;
   left: 5px;
 }
 
-.otherContainerService{
+.otherContainerService {
   width: 450px;
   margin: 0 auto;
   height: 14px;
   background-color: rgba(255, 255, 255, 0.186);
   border-radius: 4px;
 }
-
-
-/* 
-
-.skillsjs {
-  width: 85%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  color:black;
-}
-
-.skillsreact {
-  width: 85%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  color:black;
-}
-
-.skillsnode {
-  width: 80%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  color:black;
-}
-
-.skillsexpress {
-  width: 75%;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  color:black;
-}
-
-.skillspostgre {
-  width: 65%;
-  height: 14px;
-  border-radius:4px;
-  background-color: #1C45A4;
-  color:black;
-}
-
-.skillsgithub {
-  width: 65%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  outline: solid 1px rgb(54, 54, 54);
-  color:gray;
-}
-
-/*--------- OTHER SKILLS --------- 
-.skillsPs {
-  width: 80%;
-  height: 14px;
-  border-radius: 4px;
-  color: black;  background-color: #1C45A4; 
-}
-
-.skillsPremier {
-  width: 75%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4;
-  color: black;
-}
-.skillsAfterEff {
-  width: 55%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4; 
-  color: black;
-}
-
-.skillsLightroom {
-  width: 45%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4; 
-  color: black;
-}
-
-.skillsAcrobat {
-  width: 70%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4; 
-  color: black;
-}
-
-.skillsAudition {
-  width: 50%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4; 
-
-  color: black;
-}
-
-.skillsSpark {
-  width: 80%; 
-  height: 14px;
-  border-radius: 4px;
-  background-color: #1C45A4; 
-  color: black;
-} 
-
-*/

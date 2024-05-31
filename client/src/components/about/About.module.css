@@ -1,41 +1,41 @@
-.container{
-  height: 780px;
-  border-bottom: solid 30px black;
+.container {
+  height: 100vh;
 }
 
-.aboutContent{
-  display: flex;
-  text-align: start;
+.aboutContent {
   position: relative;
-  top: 60px;
+  top: 160px;
+  margin: 0 auto;
   flex-direction: column;
+  top: 100px;
 }
 
-.aboutContent h2{
-  margin: 40px;
-  font-size: 38px;
-  margin-left: 180px;
-  margin-bottom: 10px;
-  top: 20px;
+.aboutContent h2 {
+  top: 10px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  font-size: 40px;
   position: relative;
-  font-weight: 100;
-  color:rgb(233, 233, 233);
+  font-weight: 400;
 }
 
-.aboutContent p{
-  font-size: 24px;
+.aboutContent p {
+  text-align: start;
+  font-size: 22px;
   position: relative;
-  top: -29px;
-  left: 2px;
+  font-weight: 300;
+  top: -14px;
+  left: 10px;
   color: rgb(233, 233, 233);
 }
 
-.aboutContent b{
+.aboutContent b {
   color: #183577;
 }
 
-.text{
-  outline: solid 1px #183577;
+.text {
   top: 30px;
   margin: 0 auto;
   margin-left: 206px;
@@ -43,13 +43,12 @@
   background-color: #090e1afa;
   box-shadow: 4px 4px 6px black;
   padding: 16px;
-  border-radius: 6px;
   width: 514px;
   height: 350px;
   z-index: 998;
 }
 
-.monigotes img{
+.monigotes img {
   filter: blur(1px);
   width: 540px;
   height: 410px;

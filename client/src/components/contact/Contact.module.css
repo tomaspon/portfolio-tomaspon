@@ -1,3 +1,7 @@
+.container {
+  height: 90vh;
+}
+
 .contactContent ul {
   display: flex;
   list-style: none;
