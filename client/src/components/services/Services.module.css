@@ -1,9 +1,10 @@
 .container {
   border-bottom: solid 4px black;
-  height: 90vh;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: #0E1628;
 }
 
 .devContainer {
@@ -13,21 +14,20 @@
 }
 
 .skillsTitle h2 {
-  text-align: start;
   font-weight: 100;
-  font-size: 36px;
-  left: -2px;
+  font-size: 40px;
+  position: relative;
   text-align: center;
 }
 
 .containerTitle h2 {
-  height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.219);
-  font-size: 40px;
+  font-size: 50px;
   margin: 0 auto;
-  position: relative;
-  font-weight: 400;
+  color: #1C45A4;
+  background-color: black;
+  position: absolute;
+  font-weight: 600;
 }
 
 .container h3 {
@@ -48,7 +48,6 @@
   margin: 0 auto;
 }
 
-/* -------- SKILLS -------- */
 .skills {
   text-align: right;
   padding-top: 10px;
@@ -83,7 +82,6 @@
   height: 140px;
   width: 1200px;
   align-items: center;
-
   justify-content: center;
 }
 
@@ -97,14 +95,14 @@
 
 svg {
   display: block;
-  margin: 4px;
+  margin: 10px;
   flex-shrink: 0;
-  transition: all 0.3s ease-out; /* Añade la transición en el estado inicial */
+  transition: all 0.3s ease-out;
 }
 
 svg:hover {
-  width: 138px;
-  height: 138px;
+  width: 114px;
+  height: 114px;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.651));
 }
 
@@ -125,6 +123,11 @@ svg:hover {
 .otherServiceSection p {
   position: relative;
   left: 5px;
+}
+
+.serviceSection p{
+  position: relative;
+  top: -10px;
 }
 
 .otherContainerService {

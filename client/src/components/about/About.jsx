@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <div className={style.container}>
         <div className={style.aboutContent}>
-          <h2>SOBRE MI👋🏻</h2>
+          <h2>SOBRE MI</h2>
           <div className={style.text}>
             <p>
               ⠂Me caracterizo por mi diligencia y capacidad de adaptación, lo

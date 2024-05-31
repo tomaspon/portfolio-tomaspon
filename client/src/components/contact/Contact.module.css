@@ -1,5 +1,7 @@
 .container {
   height: 90vh;
+  display: flex;
+  justify-content: center;
 }
 
 .contactContent ul {
@@ -23,4 +25,38 @@
 
 .icon a {
   font-style: none;
+}
+
+.form{
+  text-align: start;
+  background-color: #090E1A;
+  border: solid 1px black;
+  width: 400px;
+  box-shadow: 4px 4px 6px black;
+  height: 200px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.form h3{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.formContent{
+  width: 200px;
+  justify-content: center;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  position: relative;
+  top: 20px;
+  width: 80px;
+  height: 20px;
 }

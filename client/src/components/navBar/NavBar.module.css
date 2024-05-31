@@ -39,7 +39,7 @@
 .scrollToTop {
   position: fixed;
   bottom: 40px;
-  right: 40px;
+  right: 40px; 
   background-color: white;
   color: black;
   border-radius: 50%;
@@ -50,7 +50,7 @@
   box-shadow: 0px 0px 20px #163c94a6;
   font-size: 34px;
   font-weight: 800;
-  z-index: 9999; /* Ajuste del z-index */
+  z-index: 9999;
 }
 
 .scrollToTop:hover {

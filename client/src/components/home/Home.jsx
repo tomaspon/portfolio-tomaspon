@@ -5,6 +5,7 @@ import Landing from "../landing/Landing";
 import About from "../about/About";
 import Services from "../services/Services";
 import Works from "../works/Works";
+import Contact from "../contact/Contact";
 
 const Home = () => {
   return (
@@ -24,6 +25,9 @@ const Home = () => {
         </div>
         <div className={style.worksContainer} id="works">
           <Works />
+        </div>
+        <div className={style.worksContainer} id="contact">
+          <Contact/>
         </div>
       </div>
     </div>

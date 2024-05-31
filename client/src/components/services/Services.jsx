@@ -18,8 +18,8 @@ const Services = () => {
                 <div title="JavaScript">
                   <svg
                     id="SvgjsSvg1016"
-                    width="120px"
-                    height="120px"
+                    width="100px"
+                    height="100px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -42,12 +42,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>JavaScript</p>
+
                 </div>
                 <div title="HTML">
                   <svg
                     id="SvgjsSvg1021"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -85,12 +87,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>HMTL</p>
+
                 </div>
                 <div title="CSS">
                   <svg
                     id="SvgjsSvg1028"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -113,12 +117,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>CSS</p>
+
                 </div>
                 <div title="React">
                   <svg
                     id="SvgjsSvg1033"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -141,12 +147,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>React</p>
+
                 </div>
                 <div title="Redux">
                   <svg
                     id="SvgjsSvg1001"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -177,12 +185,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>Redux</p>
+
                 </div>
                 <div title="NodeJS">
                   <svg
                     id="SvgjsSvg1011"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -205,12 +215,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>Node.js</p>
+
                 </div>
                 <div title="MongoDB">
                   <svg
                     id="SvgjsSvg1001"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -379,12 +391,13 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>MongoDB</p>
                 </div>
                 <div title="PostgreSQL">
                   <svg
                     id="SvgjsSvg1023"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -404,7 +417,7 @@ const Services = () => {
                         ></path>
                         <path
                           fill="#336791"
-                          d="M237.906 160.722c-29.74 6.135-31.785-3.934-31.785-3.934 31.4-46.593 44.527-105.736 33.2-120.211-30.904-39.485-84.399-20.811-85.292-20.327l-.287.052c-5.876-1.22-12.451-1.946-19.842-2.067-13.456-.22-23.664 3.528-31.41 9.402 0 0-95.43-39.314-90.991 49.444.944 18.882 27.064 142.873 58.218 105.422 11.387-13.695 22.39-25.274 22.39-25.274 5.464 3.63 12.006 5.482 18.864 4.817l.533-.452c-.166 1.7-.09 3.363.213 5.332-8.026 8.967-5.667 10.541-21.711 13.844-16.235 3.346-6.698 9.302-.471 10.86 7.549 1.887 25.013 4.561 36.813-11.958l-.47 1.885c3.144 2.519 5.352 16.383 4.982 28.952-.37 12.568-.617 21.197 1.86 27.937 2.479 6.74 4.948 21.905 26.04 17.386 17.623-3.777 26.756-13.564 28.027-29.89.901-11.606 2.942-9.89 3.07-20.267l1.637-4.912c1.887-15.733.3-20.809 11.157-18.448l2.64.232c7.99.363 18.45-1.286 24.589-4.139 13.218-6.134 21.058-16.377 8.024-13.686h.002"
+                          d="M237.906 160.722c-29.74 6.135-31.785-3.934-31.785-3.934 31.4-46.593 44.527-105.736 33.2-100.211-30.904-39.485-84.399-20.811-85.292-20.327l-.287.052c-5.876-1.22-12.451-1.946-19.842-2.067-13.456-.22-23.664 3.528-31.41 9.402 0 0-95.43-39.314-90.991 49.444.944 18.882 27.064 142.873 58.218 105.422 11.387-13.695 22.39-25.274 22.39-25.274 5.464 3.63 12.006 5.482 18.864 4.817l.533-.452c-.166 1.7-.09 3.363.213 5.332-8.026 8.967-5.667 10.541-21.711 13.844-16.235 3.346-6.698 9.302-.471 10.86 7.549 1.887 25.013 4.561 36.813-11.958l-.47 1.885c3.144 2.519 5.352 16.383 4.982 28.952-.37 12.568-.617 21.197 1.86 27.937 2.479 6.74 4.948 21.905 26.04 17.386 17.623-3.777 26.756-13.564 28.027-29.89.901-11.606 2.942-9.89 3.07-20.267l1.637-4.912c1.887-15.733.3-20.809 11.157-18.448l2.64.232c7.99.363 18.45-1.286 24.589-4.139 13.218-6.134 21.058-16.377 8.024-13.686h.002"
                           class="color336791 svgShape"
                         ></path>
                         <path
@@ -420,12 +433,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>PostgreSQL</p>
+
                 </div>
                 <div title="Git">
                   <svg
                     id="SvgjsSvg1038"
-                    width="120"
-                    height="120"
+                    width="100"
+                    height="100"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -448,6 +463,8 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>Git</p>
+
                 </div>
               </div>
             </section>
@@ -458,11 +475,11 @@ const Services = () => {
             </div>
             <section id="services" className={style.serviceSection}>
               <div className={style.devSection}>
-                <div alt=" Adobe Photoshop" title="Adobe Photoshop">
+                <div alt="Adobe Photoshop" title="Adobe Photoshop">
                   <svg
                     id="SvgjsSvg1026"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -475,8 +492,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100px"
-                        height="100px"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#00c8ff"
@@ -524,12 +541,13 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>Photoshop</p>
                 </div>
                 <div alt=" Adobe Premiere" title="Adobe Premiere">
                   <svg
                     id="SvgjsSvg1034"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -542,8 +560,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100px"
-                        height="100px"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#e586ff"
@@ -586,12 +604,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>Premiere</p>
+
                 </div>
-                <div alt="Adobe Lightroom" title="Adobe Lightroom">
+                <div alt="Adobe After Effects" title="Adobe After Effects">
                   <svg
                     id="SvgjsSvg1042"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -604,8 +624,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100px"
-                        height="100px"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#d291ff"
@@ -652,12 +672,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>After Effects</p>
+
                 </div>
-                <div alt=" Adobe Audition" title="Adobe Audition">
+                <div alt=" Adobe Lightroom" title="Adobe Lighroom">
                   <svg
                     id="SvgjsSvg1050"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -670,8 +692,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100"
-                        height="100"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#3df0f0"
@@ -708,12 +730,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>Lightroom</p>
+
                 </div>
-                <div alt=" Adobe Illustrator" title="Adobe Illustrator">
+                <div alt=" Adobe Audition" title="Adobe Audition">
                   <svg
                     id="SvgjsSvg1058"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -726,8 +750,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100px"
-                        height="100px"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#00e4bb"
@@ -772,12 +796,14 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>{" "}
+                  <p>Audition</p>
+
                 </div>
                 <div>
                   <svg
                     id="SvgjsSvg1001"
-                    width="100px"
-                    height="100px"
+                    width="80px"
+                    height="80px"
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -790,8 +816,8 @@ const Services = () => {
                         enable-background="new 0 0 512 512"
                         version="1"
                         viewBox="0 0 512 512"
-                        width="100px"
-                        height="100px"
+                        width="80px"
+                        height="80px"
                       >
                         <path
                           fill="#ff7c00"
@@ -837,6 +863,8 @@ const Services = () => {
                       </svg>
                     </g>
                   </svg>
+                  <p>Illustrator</p>
+
                 </div>
               </div>
             </section>
