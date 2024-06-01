@@ -32,7 +32,7 @@ const Landing = () => {
             </b>
           </h3>
         </div>
-        <h4>Desarrollador Full Stack.</h4>
+        <h4>Desarrollador Full-Stack.</h4>
       </div>
       <div className={style.contactContent}>
         <ul>

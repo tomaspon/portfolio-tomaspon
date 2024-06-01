@@ -17,7 +17,6 @@
   font-size: 40px;
   position: relative;
   text-align: start;
-  left: 200px;
   font-weight: 400;
 }
 
@@ -37,7 +36,7 @@
 
 .text {
   top: 30px;
-  margin-left: 206px;
+  margin: 0 auto;
   position: relative;
   background-color: #090e1afa;
   box-shadow: 4px 4px 6px black;
@@ -54,4 +53,10 @@
   position: relative;
   top: -350px;
   left: 750px;
+}
+
+
+.textContainer{
+  display: flex;
+  
 }

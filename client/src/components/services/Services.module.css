@@ -24,8 +24,6 @@
   width: 100%;
   font-size: 50px;
   margin: 0 auto;
-  color: #1C45A4;
-  background-color: black;
   position: absolute;
   font-weight: 600;
 }
@@ -85,26 +83,21 @@
   justify-content: center;
 }
 
-.serviceSection h5 {
-  text-align: end;
-  font-weight: 600;
-  margin: 4px;
-  position: relative;
-  top: -3px;
-}
 
 svg {
   display: block;
   margin: 10px;
   flex-shrink: 0;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
+  filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.267));
 }
 
 svg:hover {
+  color: #1C45A4;
   width: 114px;
   height: 114px;
-  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.651));
 }
+
 
 .containerService:hover {
   box-shadow: 1px 2px 4px black;

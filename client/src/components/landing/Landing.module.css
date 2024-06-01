@@ -2,7 +2,7 @@
   height: 100vh;
   border-bottom: solid 18px black;
   background-position: center; /* Esto centra la imagen en el contenedor */
-  background-size: cover;
+  background-size:auto;
   background-attachment: fixed;
   background-image: url("src/assets/fondo.png");
 }

@@ -7,6 +7,7 @@ const About = () => {
       <div className={style.container}>
         <div className={style.aboutContent}>
           <h2>SOBRE MI</h2>
+          <div className={style.textContainer}>
           <div className={style.text}>
             <p>
               ⠂Me caracterizo por mi diligencia y capacidad de adaptación, lo
@@ -21,6 +22,10 @@ const About = () => {
               diversidad de ideas para lograr soluciones sólidas.
               <b>😊💙</b>
             </p>
+          </div>
+          <div className={style.text}>
+            
+          </div>
           </div>
         </div>
       </div>
