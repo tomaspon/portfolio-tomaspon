@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: #0E1628;
+  background-color: #0e1628;
 }
 
 .devContainer {
@@ -83,8 +83,7 @@
   justify-content: center;
 }
 
-
-svg {
+.svgServices {
   display: block;
   margin: 10px;
   flex-shrink: 0;
@@ -92,12 +91,11 @@ svg {
   filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.267));
 }
 
-svg:hover {
-  color: #1C45A4;
+.svgServices:hover {
+  color: #1c45a4;
   width: 114px;
   height: 114px;
 }
-
 
 .containerService:hover {
   box-shadow: 1px 2px 4px black;
@@ -118,7 +116,7 @@ svg:hover {
   left: 5px;
 }
 
-.serviceSection p{
+.serviceSection p {
   position: relative;
   top: -10px;
 }

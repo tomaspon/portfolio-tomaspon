@@ -17,6 +17,7 @@
   font-size: 40px;
   position: relative;
   text-align: start;
+  left: 200px;
   font-weight: 400;
 }
 
@@ -55,8 +56,6 @@
   left: 750px;
 }
 
-
-.textContainer{
+.textContainer {
   display: flex;
-  
 }

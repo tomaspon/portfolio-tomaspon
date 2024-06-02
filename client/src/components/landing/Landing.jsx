@@ -34,30 +34,6 @@ const Landing = () => {
         </div>
         <h4>Desarrollador Full-Stack.</h4>
       </div>
-      <div className={style.contactContent}>
-        <ul>
-          <li className={style.icon}>
-            <a href="https://www.linkedin.com/in/tomaspon/" target="_blank">
-              <img src="src\assets\linkedin.png" alt="LinkedIn" />
-            </a>
-          </li>
-          <li className={style.icon}>
-            <a href="https://github.com/tomaspon" target="_blank">
-              <img src="src\assets\github.png" alt="GitHub" />
-            </a>
-          </li>
-          <li className={style.iconyt}>
-            <a href="https://www.youtube.com/@tomaspon" target="_blank">
-              <img src="src\assets\youtube.png" alt="Youtube" width="38px" />
-            </a>
-          </li>
-        </ul>
-        <div className={style.hrs}>
-          <hr />
-          <hr />
-          <hr />
-        </div>
-      </div>
     </div>
   );
 };
