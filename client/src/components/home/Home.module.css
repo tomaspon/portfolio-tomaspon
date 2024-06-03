@@ -1,9 +1,10 @@
-.servicesContainer {
-  position: relative;
-  top: -100px;
+html,
+body {
+  margin: 0;
+  width: 100%;
 }
 
-.aboutContainer {
+.servicesContainer {
   position: relative;
   top: -100px;
 }

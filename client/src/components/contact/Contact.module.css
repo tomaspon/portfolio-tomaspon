@@ -1,8 +1,9 @@
 .container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("src/assets/fondo - copia.png");
 }
 
 .form {
@@ -78,8 +79,11 @@
 }
 
 .formInputs button {
-  width: 150px;
-  height: 40px;
+  width: 110px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   font-weight: 400;
   border: none;
@@ -88,11 +92,81 @@
   color: white;
   cursor: pointer;
   position: relative;
-  top: 10px;
+  top: 4px;
+}
+
+.formInputs button span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  left: 2px;
+}
+
+.formInputs button svg {
+  top: 2px;
+  position: relative;
+  left: -6px;
+}
+
+.formInputs button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.formInputs button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.2s;
+}
+
+.formInputs button svg {
+  display: block;
+  transform-origin: center center;
+  transition: 0.2s ease-out;
+}
+
+.formInputs button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.formInputs button:hover svg {
+  position: relative;
+  top: 0px;
+  left: 5px;
+  transform: translateX(1.2em) rotate(45deg) scale(1.3);
+}
+
+.formInputs button:hover span {
+  transform: translateX(5em);
+}
+
+.formInputs button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
 
 .formInputs button:hover {
-  background-color: black;
+  background-color: #142e74;
   color: white;
   transition: 0.3s ease;
   border: solid 1px white;
@@ -178,4 +252,9 @@ a svg:hover {
   position: absolute;
   width: 102px;
   top: 74px;
+}
+
+.svgWrapper {
+  display: flex;
+  align-items: center;
 }

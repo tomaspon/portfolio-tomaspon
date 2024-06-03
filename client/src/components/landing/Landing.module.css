@@ -1,11 +1,12 @@
 .container {
   height: 100vh;
-  border-bottom: solid 18px black;
+  border-bottom: solid 14px black;
   background-position: center; /* Esto centra la imagen en el contenedor */
   background-size: auto;
   background-attachment: fixed;
   justify-content: center;
-  background-image: url("src/assets/fondo.png");
+  display: flex;
+  background-image: url("src/assets/fondoLanding.png");
 }
 
 .presentContainer {
@@ -63,4 +64,33 @@
 
 .landingContainer {
   position: relative;
+}
+
+.button {
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.button span {
+  transition: all 0.3s;
+  border-radius: 6px;
+  color: black;
+  letter-spacing: 2px;
+  background-color: white;
+  padding: 12px;
+  border: solid 1px white;
+}
+
+.button span:hover {
+  color: white;
+  transition: 0.4s ease;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px white;
+}
+.box1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
 }

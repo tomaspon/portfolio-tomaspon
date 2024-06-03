@@ -33,8 +33,19 @@ const Landing = () => {
           </h3>
         </div>
         <h4>Desarrollador Full-Stack.</h4>
+        <div className={style.box1}>
+          <div className={style.button}>
+            <a
+              target="_blank"
+              href="https://drive.usercontent.google.com/download?id=1D-F3TGL14OnZlkyWLGAl2NvNibKK3M-q&export=download&authuser=0&confirm=t&uuid=9594359b-fefd-4396-a258-faf6ae88bfbc&at=APZUnTU_9mkvNqF3a29XTNJGQLIt:1717367858459"
+            >
+              <span>Descargar CV</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+
 export default Landing;

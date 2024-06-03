@@ -1,4 +1,5 @@
 .container {
+  overflow-x: hidden;
   background-color: rgba(0, 0, 0, 0.822);
 }
 
@@ -51,9 +52,22 @@
   font-size: 34px;
   font-weight: 800;
   z-index: 9999;
+  transition: 0.3s ease;
 }
 
 .scrollToTop:hover {
   background-color: #1a58b2;
   cursor: pointer;
+}
+
+.homeIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.homeIcon svg {
+  position: relative;
+  left: -4px;
 }

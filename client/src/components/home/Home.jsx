@@ -4,8 +4,8 @@ import NavBar from "../navBar/NavBar";
 import Landing from "../landing/Landing";
 import About from "../about/About";
 import Services from "../services/Services";
-import Works from "../works/Works";
 import Contact from "../contact/Contact";
+import Works from "../works/Works";
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
           <Works />
         </div>
         <div className={style.worksContainer} id="contact">
-          <Contact/>
+          <Contact />
         </div>
       </div>
     </div>

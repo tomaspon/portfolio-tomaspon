@@ -1,31 +1,68 @@
 .container {
-  border-bottom: solid 4px black;
   height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: #0e1628;
+  background-position: center; /* Esto centra la imagen en el contenedor */
+  background-size: auto;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 14px black;
+
+  background-image: url("src/assets/fondo - copia.png");
+}
+
+.containerContent {
+  margin: 0 auto;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  text-align: start;
+  justify-items: start;
+  justify-content: center;
+  align-items: start;
+  padding: 60px;
+  width: 60%;
+  height: 500px;
+  top: -90px;
+  border-radius: 10px 50px 10px 50px;
+  background-color: #0e16288f;
+  box-shadow: #264794 2px 2px 1px;
 }
 
 .devContainer {
   display: flex;
-  margin: 0 auto;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
 .skillsTitle h2 {
-  font-weight: 100;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 44px;
+  top: 24px;
   position: relative;
+  text-align: start;
+  justify-items: center;
+  align-items: center;
+}
+
+.containerTitle {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
+  top: -90px;
+  position: relative;
+  align-items: center;
 }
 
 .containerTitle h2 {
-  width: 100%;
-  font-size: 50px;
-  margin: 0 auto;
-  position: absolute;
+  font-size: 60px;
   font-weight: 600;
+  position: relative;
+  z-index: 1000;
 }
 
 .container h3 {
@@ -54,26 +91,11 @@
   margin: 0 auto;
 }
 
-.containerService {
-  width: 350px;
-  margin: 0 auto;
-  height: 14px;
-  background-color: rgba(255, 255, 255, 0.186);
-  border-radius: 4px;
-}
-
-.containerContent {
-  justify-content: center;
-  margin: 0 auto;
-  flex-direction: column;
-  top: 100px;
-  position: relative;
-}
-
 .devSection {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  position: relative;
+  left: -18px;
+  justify-content: start;
 }
 
 .serviceSection {
@@ -84,17 +106,19 @@
 }
 
 .svgServices {
-  display: block;
+  display: flex;
   margin: 10px;
+  justify-items: start;
+  align-items: start;
+  justify-content: start;
   flex-shrink: 0;
   transition: all 0.2s ease-out;
-  filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.267));
+  filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.103));
 }
 
 .svgServices:hover {
   color: #1c45a4;
-  width: 114px;
-  height: 114px;
+  transform: scale(110%);
 }
 
 .containerService:hover {
@@ -103,28 +127,63 @@
   color: black;
 }
 
-.otherServiceSection h5 {
-  text-align: end;
-  font-weight: 600;
-  margin: 4px;
-  position: relative;
-  top: -3px;
-}
-
-.otherServiceSection p {
-  position: relative;
-  left: 5px;
-}
-
 .serviceSection p {
   position: relative;
   top: -10px;
 }
 
-.otherContainerService {
-  width: 450px;
+.containerContent .coffeeSvg {
+  position: absolute;
+  right: -160px;
+  top: 150px;
+  height: 100%;
+}
+
+.designSection p {
+  margin: 0px;
+  position: relative;
+  top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devSection p {
+  position: relative;
+  display: flex;
+  top: -24px;
+  font-size: 16px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+  top: -10px;
+}
+
+.svgDiv:hover {
+  filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.568));
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  position: relative;
+  top: -30px;
+  left: 40px;
+}
+
+.designSection {
   margin: 0 auto;
-  height: 14px;
-  background-color: rgba(255, 255, 255, 0.186);
-  border-radius: 4px;
+  left: -6px;
+  display: flex;
+  font-weight: 100;
+  position: relative;
 }

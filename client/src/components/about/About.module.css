@@ -1,23 +1,29 @@
+/* About.module.css */
 .container {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Esto es opcional si deseas centrarlo verticalmente */
+  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la vista */
 }
 
 .aboutContent {
+  text-align: center; /* Centra el contenido dentro del contenedor */
   position: relative;
-  top: 140px;
+  display: flex;
+  top: -50px;
+  justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .aboutContent h2 {
-  top: 20px;
   height: 100%;
-  width: 100%;
-  color: white;
+  color: #e0e1e3;
   margin: 0 auto;
   font-size: 40px;
+  margin: 0 auto;
   position: relative;
   text-align: start;
-  left: 200px;
   font-weight: 400;
 }
 
@@ -35,27 +41,180 @@
   color: #183577;
 }
 
+.textContainer {
+  display: flex;
+  justify-content: center; /* Centrar el contenido horizontalmente */
+}
+
 .text {
-  top: 30px;
-  margin: 0 auto;
-  position: relative;
+  margin: 0 10px;
   background-color: #090e1afa;
   box-shadow: 4px 4px 6px black;
   padding: 16px;
-  width: 514px;
-  height: 350px;
   z-index: 998;
 }
 
-.monigotes img {
-  filter: blur(1px);
-  width: 540px;
-  height: 410px;
-  position: relative;
-  top: -350px;
-  left: 750px;
+.text:first-of-type {
+  width: 70%;
+  max-width: 514px;
+  height: 350px;
 }
 
-.textContainer {
+.text:last-of-type {
+  width: 10%;
+  height: 350px;
+  background-color: #090e1afa;
+}
+
+.aboutTitle {
   display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  top: -60px;
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+}
+
+.aboutTitle h2 {
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 104%;
+  margin: 0 200px;
+  background-color: #090e1afa;
+  box-shadow: 4px 4px 6px black;
+  z-index: 998;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.text2Container {
+  position: relative;
+  top: 20px;
+}
+
+.text2 hr {
+  width: 100%;
+  position: relative;
+  top: -6px;
+  border: solid 1px black;
+  margin: 0 auto;
+}
+
+.text2Content {
+  display: flex;
+  position: relative;
+  left: -22px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: -10px;
+}
+
+.profilePicture {
+  object-fit: cover;
+  margin: 0 auto;
+  align-self: center;
+  width: 94%;
+  height: 340px;
+  position: relative;
+  left: 4px;
+}
+
+li {
+  list-style: none;
+}
+
+.nameTitle2 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.nameTitle2 p {
+  font-weight: 400;
+}
+
+.nameTitle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  left: -18px;
+}
+
+.nameTitle2 img {
+  position: relative;
+  top: -13px;
+  right: -20px;
+}
+
+.nameTitle3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -60px;
+  left: 0px;
+  position: relative;
+}
+
+.nameTitle p {
+  font-size: 32px;
+  position: relative;
+  left: 0px;
+  top: -4px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #e0e1e3;
+}
+
+.contactContent {
+  position: relative;
+  top: 60px;
+}
+
+.contactContent ul {
+  width: 170px;
+  height: 50px;
+  right: 24px;
+  display: flex;
+
+  position: relative;
+  top: -60px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contactContent li {
+  position: relative;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactContent li a {
+  width: 40px;
+  height: 40px;
+}
+
+.svgIntermediate {
+  position: absolute;
+  top: 160px;
 }
