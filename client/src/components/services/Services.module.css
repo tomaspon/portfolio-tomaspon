@@ -8,8 +8,6 @@
   background-attachment: fixed;
   align-items: center;
   justify-content: center;
-  border-top: solid 14px black;
-
   background-image: url("src/assets/fondo - copia.png");
 }
 
@@ -23,12 +21,12 @@
   justify-content: center;
   align-items: start;
   padding: 60px;
-  width: 60%;
-  height: 500px;
-  top: -90px;
-  border-radius: 10px 50px 10px 50px;
-  background-color: #0e16288f;
-  box-shadow: #264794 2px 2px 1px;
+  width: 64%;
+  height: 600px;
+  top: -40px;
+  border-radius: 20px 4px 20px 4px;
+  background-color: #0e1628;
+  box-shadow: #00000079 2px 4px 4px;
 }
 
 .devContainer {
@@ -41,8 +39,8 @@
 .skillsTitle h2 {
   font-weight: 400;
   font-size: 44px;
-  top: 24px;
   position: relative;
+  margin-bottom: 10px;
   text-align: start;
   justify-items: center;
   align-items: center;
@@ -53,7 +51,7 @@
   flex-direction: row;
   text-align: center;
   justify-content: center;
-  top: -90px;
+  top: -82px;
   position: relative;
   align-items: center;
 }
@@ -62,7 +60,7 @@
   font-size: 60px;
   font-weight: 600;
   position: relative;
-  z-index: 1000;
+  color: white;
 }
 
 .container h3 {
@@ -135,8 +133,9 @@
 .containerContent .coffeeSvg {
   position: absolute;
   right: -160px;
-  top: 150px;
-  height: 100%;
+  top: 50px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .designSection p {
@@ -151,7 +150,7 @@
 .devSection p {
   position: relative;
   display: flex;
-  top: -24px;
+  top: -8px;
   font-size: 16px;
   font-weight: 100;
   justify-content: center;

@@ -3,15 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center; /* Esto centra la imagen en el contenedor */
+  background-size: auto;
+  background-attachment: fixed;
   background-image: url("src/assets/fondo - copia.png");
 }
 
 .form {
   display: flex;
-  background-color: #090e1a;
+  background-color: #0e1628;
   border: 1px solid black;
-  width: 910px;
-  height: 500px;
+  width: 920px;
+  height: 520px;
   box-shadow: 4px 4px 6px black;
   padding: 20px;
   border-radius: 4px;
@@ -41,7 +44,7 @@
   position: relative;
   top: -60px;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
   text-align: start;
 }
 
@@ -51,7 +54,7 @@
   align-items: center;
   margin-bottom: 20px;
   position: relative;
-  top: -30px;
+  top: -10px;
 }
 
 .formContentTitle h3,
@@ -65,8 +68,12 @@
   display: flex;
   width: 480px;
   position: relative;
-  top: -40px;
   flex-direction: column;
+}
+
+.formInputs textarea {
+  resize: none;
+  height: 120px;
 }
 
 .formInputs input,
@@ -75,6 +82,8 @@
   margin-bottom: 20px;
   border-radius: 4px;
   border: none;
+  font-weight: 400;
+  font-size: 16px;
   background-color: rgba(128, 128, 128, 0.219);
 }
 
@@ -118,7 +127,7 @@
   display: flex;
   align-items: center;
   border: none;
-  border-radius: 16px;
+  border-radius: 8px;
   overflow: hidden;
   transition: all 0.2s;
   cursor: pointer;
@@ -173,18 +182,14 @@
   font-size: 16px;
 }
 
-textarea {
-  resize: none;
-  height: 120px;
-}
-
-textarea::placeholder {
-  font-size: 14px;
-}
-
 .rightColumn p {
   margin-top: 20px;
   color: #ccc;
+}
+
+.formContent {
+  position: relative;
+  top: 40px;
 }
 
 .formContent ul {
@@ -242,7 +247,7 @@ a svg:hover {
 
 .hrTitle1 hr {
   position: absolute;
-  top: 74px;
+  top: 48px;
   width: 102px;
   border: 1px solid #2962ff;
 }
@@ -251,7 +256,7 @@ a svg:hover {
   border: 1px solid #2962ff;
   position: absolute;
   width: 102px;
-  top: 74px;
+  top: 48px;
 }
 
 .svgWrapper {
