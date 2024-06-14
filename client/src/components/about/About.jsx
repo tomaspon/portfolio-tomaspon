@@ -7,20 +7,51 @@ const About = () => {
       <div className={style.containerContent}>
         <div className={style.containerTitle}>
           <h2>SOBRE MI</h2>
+          <svg
+            id="SvgjsSvg1013"
+            width="70"
+            height="70"
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs"
+          >
+            <defs id="SvgjsDefs1014"></defs>
+            <g id="SvgjsG1015">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+                width="70"
+                height="70"
+              >
+                <path
+                  d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm1,21H15V13h2Zm0-12H15V9h2Z"
+                  data-name="7"
+                  fill="#2962ff"
+                  class="color000 svgShape"
+                ></path>
+              </svg>
+            </g>
+          </svg>
         </div>
         <div className={style.profiles}>
           <div className={style.profile1}>
             <p>
               • Me caracterizo por mi diligencia y capacidad de adaptación, lo
               que me permite trabajar eficazmente tanto de forma independiente
-              como en equipo.
-              <br />• Tengo habilidades para organizar y priorizar tareas según
-              los objetivos del proyecto.
-              <br />
+              como en equipo.{" "}
+            </p>
+            <p>
+              • Tengo habilidades para organizar y priorizar tareas según los
+              objetivos del proyecto.
+            </p>
+            <p>
               • Disfruto colaborar en entornos dinámicos que valoran la
               creatividad y la innovación.
-              <br />• Creo firmemente en la importancia del trabajo en equipo y
-              en la diversidad de ideas para lograr soluciones sólidas.
+            </p>
+            <p>
+              • Creo firmemente en la importancia del trabajo en equipo y en la
+              diversidad de ideas para lograr soluciones sólidas.
             </p>
           </div>
 
@@ -28,7 +59,7 @@ const About = () => {
             <div className="rounded-t-lg h-32 overflow-hidden ">
               <img
                 className="object-cover object-top w-full"
-                src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                src="https://img.freepik.com/vector-gratis/fondo-degradado-lineas-dinamicas_23-2149004809.jpg "
                 alt="Mountain"
               />
             </div>

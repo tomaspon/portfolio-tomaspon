@@ -4,7 +4,12 @@ const Works = () => {
   return (
     <div className="mx-auto">
       <div className="text-center flex items-center justify-center space-x-4 relative bottom-12">
-        <h2 className="text-6xl font-semibold relative">PROYECTOS</h2>
+        <h2
+          className="text-6xl font-semibold relative"
+          style={{ left: "-453px" }}
+        >
+          PROYECTOS
+        </h2>
         <svg
           id="SvgjsSvg1001"
           width="80"
@@ -35,14 +40,21 @@ const Works = () => {
         <div className="container px-5 py-20 mx-auto">
           <div
             className="flex flex-col"
-            style={{ position: "relative", top: "-80px" }}
+            style={{
+              position: "relative",
+              top: "-80px",
+              width: "88%",
+              display: "flex",
+              justifyContent: "center",
+              margin: "0 auto",
+            }}
           >
             <div className="h-1 bg-gray-800 rounded overflow-hidden">
               <div className="w-24 h-full bg-indigo-500"></div>
             </div>
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6" style={{ width: "29%" }}>
               <div className="rounded-lg h-80 overflow-hidden flex items-center justify-center">
                 <img
                   src="src/assets/idmlogo.png"
@@ -55,7 +67,9 @@ const Works = () => {
                   <h3 className="text-xl font-medium title-font text-white mt-5">
                     Idiomas Master
                   </h3>
-                  <p className="text-base leading-relaxed mt-2">
+                  <p
+                    className="text-base leading-relaxed mt-2 text-center" // Aquí agregamos text-center
+                  >
                     Una plataforma de comercio electrónico que ofrece cursos en
                     línea de diferentes idiomas.
                   </p>
@@ -67,7 +81,7 @@ const Works = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6" style={{ width: "29%" }}>
               <div className="rounded-lg h-80 overflow-hidden flex items-center justify-center">
                 <img
                   src="https://media.licdn.com/dms/image/sync/D4D27AQHA1bP6vpmWMg/articleshare-shrink_480/0/1711727082235?e=1718060400&v=beta&t=kCDPu2F86qSbhVxsl5e-jmHawMapva4hnEvaW-8cxuw"
@@ -80,7 +94,9 @@ const Works = () => {
                   <h3 className="text-xl font-medium title-font text-white mt-5">
                     Weather App
                   </h3>
-                  <p className="text-base leading-relaxed mt-2">
+                  <p
+                    className="text-base leading-relaxed mt-2 text-center" // Aquí agregamos text-center
+                  >
                     Una plataforma desarrollada para proporcionar información
                     meteorológica precisa y detallada en tiempo real.
                   </p>
@@ -92,7 +108,7 @@ const Works = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div className="p-4 md:w-1/3 sm:mb-0 mb-6" style={{ width: "29%" }}>
               <div className="rounded-lg h-80 overflow-hidden flex items-center justify-center">
                 <img
                   src="https://www.speedrun.com/static/game/kdkz702d/cover.png?v=236b05e"
@@ -105,7 +121,9 @@ const Works = () => {
                   <h3 className="text-xl font-medium title-font text-white mt-5">
                     Rick & Morty
                   </h3>
-                  <p className="text-base leading-relaxed mt-2">
+                  <p
+                    className="text-base leading-relaxed mt-2 text-center" // Aquí agregamos text-center
+                  >
                     Este proyecto es una Single Page Application (SPA)
                     construida con React que muestra información sobre "Rick y
                     Morty". Utiliza la API de Rick and Morty para obtener datos

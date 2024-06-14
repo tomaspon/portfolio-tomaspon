@@ -1,59 +1,42 @@
 .container {
-  height: 100vh;
+  height: 70vh;
   margin: 0 auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-position: center; /* Esto centra la imagen en el contenedor */
   background-size: auto;
   background-attachment: fixed;
-  align-items: center;
-  justify-content: center;
   background-image: url("src/assets/fondo - copia.png");
 }
 
 .containerContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   margin: 0 auto;
-  flex-direction: column;
-  position: relative;
-  display: flex;
-  text-align: start;
-  justify-items: start;
-  justify-content: center;
-  align-items: start;
-  padding: 60px;
-  width: 64%;
-  height: 600px;
-  top: -40px;
-  border-radius: 20px 4px 20px 4px;
-  background-color: #0e1628;
-  box-shadow: #00000079 2px 4px 4px;
+  top: 40px;
 }
 
-.devContainer {
+.leftContainer {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
 }
 
-.skillsTitle h2 {
-  font-weight: 400;
-  font-size: 44px;
-  position: relative;
-  margin-bottom: 10px;
-  text-align: start;
-  justify-items: center;
-  align-items: center;
+.rightContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .containerTitle {
   display: flex;
   flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  top: -82px;
   position: relative;
   align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 288px;
 }
 
 .containerTitle h2 {
@@ -63,6 +46,12 @@
   color: white;
 }
 
+.skillsTitle h2 {
+  font-weight: 300;
+  font-size: 38px;
+  margin: 0 auto;
+  display: flex;
+}
 .container h3 {
   color: #264794;
   margin: -10px 0px 0px -2.2px;
@@ -73,42 +62,36 @@
 
 .skillsList {
   position: relative;
-  bottom: 24px;
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: black;
   margin: 0 auto;
 }
 
 .devSection {
   display: flex;
   position: relative;
-  left: -18px;
+  left: -12px;
+  flex-direction: row;
+  top: -10px;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: start;
 }
 
 .serviceSection {
-  height: 140px;
-  width: 1200px;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  left: -7px;
+  justify-content: start;
 }
 
 .svgServices {
   display: flex;
-  margin: 10px;
-  justify-items: start;
-  align-items: start;
-  justify-content: start;
+  margin: 20px;
+  flex-direction: row;
   flex-shrink: 0;
   transition: all 0.2s ease-out;
   filter: drop-shadow(2.5px 3px 0px rgba(0, 0, 0, 0.103));
@@ -125,44 +108,11 @@
   color: black;
 }
 
-.serviceSection p {
-  position: relative;
-  top: -10px;
-}
-
-.containerContent .coffeeSvg {
-  position: absolute;
-  right: -160px;
-  top: 50px;
-  display: flex;
-  margin: 0 auto;
-}
-
-.designSection p {
-  margin: 0px;
-  position: relative;
-  top: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.devSection p {
-  position: relative;
-  display: flex;
-  top: -8px;
-  font-size: 16px;
-  font-weight: 100;
-  justify-content: center;
-  align-items: center;
-}
-
 .svgDiv {
   display: flex;
   flex-direction: column;
   justify-content: start;
   position: relative;
-  top: -10px;
 }
 
 .svgDiv:hover {
@@ -171,18 +121,20 @@
 
 .skillsContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: start;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: start;
   position: relative;
   top: -30px;
-  left: 40px;
 }
 
 .designSection {
-  margin: 0 auto;
-  left: -6px;
   display: flex;
   font-weight: 100;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 10px;
   position: relative;
 }
